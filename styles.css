@@ -1,0 +1,150 @@
+:root {
+  --primary-color: #ffe9ec;
+  --secondary-color: #322514;
+  --button-color: #ffb6c1;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+.work {
+  background-color: var(--button-color);
+
+  padding: 100px;
+}
+.certification {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.my-projects {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.website-links {
+  color: black;
+}
+.qualifications {
+  background-color: #fff0f3;
+  padding: 100px;
+}
+.images {
+  max-width: 100%;
+  height: auto;
+  margin-left: 100px;
+}
+
+.certificate-images {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0px;
+  color: #f699cd;
+}
+.certificate-links {
+  margin-left: 40px;
+  color: var(--secondary-color);
+}
+.shecodes {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin-right: 60px;
+}
+
+.projects {
+  font-family: "Dosis", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin-right: 50px;
+}
+.about-me {
+  background-color: #e0d6cc;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.heading {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 150px;
+  margin-top: -10px !important;
+}
+.heading h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  margin-left: 100px;
+}
+.heading h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.heading h2 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 100px;
+}
+.btn-success {
+  margin-left: 100px;
+  background-color: var(--button-color) !important;
+  border: var(--button-color) !important;
+}
+.img-fluid {
+  width: 250px;
+  position: relative;
+  bottom: 18px;
+
+  margin-right: 100px;
+}
+.responsive {
+  position: relative;
+  top: 0px !important;
+}
+
+.logo {
+  width: 100px;
+}
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+}
+@media (max-width: 576px) {
+  .certificate-images {
+    position: relative;
+    left: -10px;
+  }
+  .shecodes {
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .certificate-links {
+    color: var(--secondary-color);
+    position: relative;
+    right: 30px;
+    text-decoration: none;
+  }
+  .headline {
+    position: relative;
+    right: 50px;
+  }
+  .projects {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .responsive {
+    margin-top: 30px;
+  }
+}
+.bonolo-image {
+  position: relative;
+  left: 100px;
+  max-width: max-content;
+}
