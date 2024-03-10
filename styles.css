@@ -148,3 +148,15 @@ h1 {
   left: 100px;
   max-width: max-content;
 }
+.instagram-link {
+  text-decoration: none;
+  color: var(--button-color);
+}
+.linkedin-link {
+  text-decoration: none;
+  color: var(--button-color);
+}
+.email-link {
+  text-decoration: none;
+  color: var(--button-color);
+}
